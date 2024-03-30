@@ -63,7 +63,7 @@ function About() {
           </ul>
 
       <div className='max-w-7xl mx-10 flex justify-center bg-black bg-opacity-50 flex-col items-center border-2 p-5 border-white border-opacity-10 my-2 flex-wrap rounded-md'>
-        <h2 className='font-bold text-2xl mb-3'>Hakkımda</h2>
+        <h2 className='font-bold text-2xl mb-3'>About Me</h2>
         <p className='text-lg text-center'>{information.about}</p>
         </div>
     </div>
