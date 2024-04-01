@@ -17,7 +17,9 @@ function Projects() {
 
       <ul className="flex justify-evenly flex-wrap">
               {
-                projects.map((project, key) => <div key={key} className='bg-black w-[500px] max-lg:w-[300px] min-h-[500px] rounded-lg p-10 max-w-lg text-center h-max border border-white border-opacity-0 mx-16 my-16 flex flex-col justify-start items-center'><img src={project.photo} alt="" className='w-[140px] h-auto mb-5'/> <h1 className='font-bold text-2xl'>{project.projectName}</h1> <p className='my-[20px]'>{project.description}</p></div>)
+                projects.map((project, key) => <div key={key} className='bg-black max-lg:max-w-80 min-h-[500px] rounded-lg p-10 text-center h-max border border-white border-opacity-0 mx-16 my-16 flex flex-col justify-start items-center min-w-96'>
+                  <img src={project.photo} alt="" className='w-[140px] h-auto mb-5'/> <h1 className='font-bold text-2xl'>{project.projectName}</h1> <p className='my-[20px]'>{project.description}</p>
+                </div>)
               }
       </ul>
 
